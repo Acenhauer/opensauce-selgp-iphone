@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/opensauce-selgp-iphone-demo-tests.iml" filepath="$PROJECT_DIR$/opensauce-selgp-iphone-demo-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/selgp-appium-saucelabs-iphone.iml" filepath="$PROJECT_DIR$/selgp-appium-saucelabs-iphone.iml" />
     </modules>
   </component>

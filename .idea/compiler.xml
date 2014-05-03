@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="opensauce-selgp-iphone-demo-tests" />
         <module name="selgp-appium-saucelabs-iphone" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="opensauce-selgp-iphone-demo-tests" target="1.6" />
       <module name="selgp-appium-saucelabs-iphone" target="1.6" />
     </bytecodeTargetLevel>
   </component>

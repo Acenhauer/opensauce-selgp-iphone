@@ -23,7 +23,7 @@ Go to the main folder of opensauce-selgp-webdriver and then compile the test pac
 
 To run the whole suite on Saucelabs using FF:
 
-    java -Duser=YOUR_SAUCE_USER -Dapikey=YOUR_SAUCE_API_KEY
+    mvn -Duser=YOUR_SAUCE_USER -Dapikey=YOUR_SAUCE_API_KEY
     -Denvironment=DEVELOPMENT -Dtests.package=com.selgp.opensauce.iphone
     -Duser.dir=/path/to/your/mvn/root/dir/
-    -jar target/opensauce-selgp-iphone-demo-tests-1.0.1-jar-with-dependencies.jar
+    test
