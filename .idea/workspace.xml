@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c6d0735-c8bb-466b-bea9-8ce18f747704" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/selgp/opensauce/BaseSauceLabs.java" afterPath="$PROJECT_DIR$/src/test/java/com/selgp/opensauce/BaseSauceLabs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/selgp/opensauce/iphone/BasicAlertTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/selgp/opensauce/iphone/BasicAlertTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/selgp/opensauce/iphone/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/selgp/opensauce/iphone/SliderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/environments.properties" afterPath="$PROJECT_DIR$/src/test/resources/environments.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/suites.properties" afterPath="$PROJECT_DIR$/src/test/resources/suites.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8c6d0735-c8bb-466b-bea9-8ce18f747704" name="Default" comment="" />
     <ignored path="selgp-appium-saucelabs-iphone.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
