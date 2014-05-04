@@ -1,4 +1,4 @@
-Sample Selgp Appium Saucelabs iPhone Tests project
+Sample Selgp Appium Saucelabs iPhone Tests
 ---
 
 This contains the source code for running sample [Appium](http://github.com/appium/appium) tests using [TestNG](http://www.testng.org) on [SauceLabs](http://www.saucelabs.com)
@@ -17,13 +17,8 @@ Check out this repo from GitHub:
 
     git clone git@github.com:guillemhs/opensauce-selgp-iphone.git
 
-Go to the main folder of opensauce-selgp-webdriver and then compile the test package running the following command:
-
-    mvn -U clean install compile assembly:single
-
 To run the whole suite on Saucelabs using FF:
 
     mvn -Duser=YOUR_SAUCE_USER -Dapikey=YOUR_SAUCE_API_KEY
     -Denvironment=DEVELOPMENT -Dtests.package=com.selgp.opensauce.iphone
-    -Duser.dir=/path/to/your/mvn/root/dir/
     test
