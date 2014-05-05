@@ -14,10 +14,9 @@ public class BasicAlertTest extends BaseSauceLabs {
     @Test
     public void testBasicAlert() throws Exception {
         driver().findElement(By.xpath("//button[2]")).click();
-
         Alert alert = driver().switchTo().alert();
         //check if title of alert is correct
-        Assert.assertEquals(alert.getText(), "Cool title");
+        Assert.assertTrue(alert.getText().contains("Cool title"));
         alert.accept();
     }
 
